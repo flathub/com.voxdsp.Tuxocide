@@ -36,4 +36,4 @@ modules:
     sources:
       - type: git
         url: https://notabug.org/Vandarin/tuxocide.git
-        commit: d88b447deb91a4d1072fb3c6c3e7090deed0b88e
+        commit: 75c8aa97f3c0fe038065822867e0afd0a61689b5
