@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.voxdsp.Tuxocide</id>
+  <metadata_license>CC-BY-4.0</metadata_license>
+  <project_license>GPL-2.0-only</project_license>
+  <name>Tuxocide</name>
+  <summary>3D FPS a war rages on in antarctica</summary>
+  <url type="homepage">https://mrbid.github.io/tuxocide</url>
+  <url type="bugtracker">https://github.com/mrbid/Tuxocide/issues</url>
+  <url type="vcs-browser">https://github.com/mrbid/Tuxocide</url>
+  <developer id="com.voxdsp">
+    <name>James William Fletcher</name>
+  </developer>
+  <launchable type="desktop-id">com.voxdsp.Tuxocide.desktop</launchable>
+  <content_rating type="oars-1.0"/>
+  <description>
+    <p>A war rages on in antarctica between penguins and hostile aliens...</p>
+    <p>Tux&apos;s native home of Antarctica is being invaded by a hostile alien species!!
+      with one mission in mind, to harvest all of the tux pelts they possibly can!
+      Will you stop them, or aid them in their dastardly mission?</p>
+    <p>Mouse locks when you click on the window, press ESCAPE to unlock the mouse.</p>
+    <ul>
+      <li>W,A,S,D / Arrow Keys = Move</li>
+      <li>L-SHIFT / R-CTRL = Sprint</li>
+      <li>Left Click = Shoot</li>
+      <li>Right Click = Iron Sights</li>
+    </ul>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://imgproxy.flathub.org/insecure/dpr:2/f:avif/rs:fill-down/aHR0cHM6Ly9kbC5mbGF0aHViLm9yZy9tZWRpYS9jb20vdm94ZHNwL1R1eG9jaWRlLzNiZDg2YjRiODZiMGMwM2FlYzlkYTE2Zjk1Zjg4MzU4L3NjcmVlbnNob3RzL2ltYWdlLTFfb3JpZy5wbmc</image>
+      <caption>Tuxocide Screenshot</caption>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="1.0" date="2023-11-29"/>
+  </releases>
+</component>
