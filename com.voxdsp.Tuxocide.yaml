@@ -11,6 +11,10 @@ finish-args:
   - --socket=fallback-x11
   - --share=ipc
   - --device=dri
+cleanup:
+  - /include
+  - /lib/cmake
+  - /lib/pkgconfig
 modules:
   - name: glfw
     buildsystem: cmake-ninja
@@ -33,7 +37,7 @@ modules:
       - install -Dm 0755 tuxocide -t ${FLATPAK_DEST}/bin
       - install -Dm 0644 tuxocide.appdata.xml -t ${FLATPAK_DEST}/share/metainfo/
       - install -Dm 0644 snap/gui/tuxocide.desktop -t ${FLATPAK_DEST}/share/applications/
-      - install -Dm 0644 snap/gui/tuxocide.png -t ${FLATPAK_DEST}/share/icons/hicolor/128x128/apps/
+      - install -Dm 0644 snap/gui/tuxocide.png -t ${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/
     sources:
       - type: git
         url: https://github.com/mrbid/Tuxocide.git
