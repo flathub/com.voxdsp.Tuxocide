@@ -12,7 +12,10 @@
     <name>James William Fletcher</name>
   </developer>
   <launchable type="desktop-id">com.voxdsp.Tuxocide.desktop</launchable>
-  <content_rating type="oars-1.0"/>
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-cartoon">moderate</content_attribute>
+    <content_attribute id="violence-fantasy">moderate</content_attribute>
+  </content_rating>
   <description>
     <p>A war rages on in antarctica between penguins and hostile aliens...</p>
     <p>Tux&apos;s native home of Antarctica is being invaded by a hostile alien species!!
